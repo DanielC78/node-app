@@ -14,7 +14,7 @@ const argv = require("yargs")
   .option("h", {
     alias: "hasta",
     type: "number",
-    default: "false",
+    default : "10",
     describe: "Se elige hasta donde imprimir la tabla",
   })
   .check((argv, options) => {

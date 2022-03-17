@@ -7,7 +7,7 @@ const crearArchivo = async (base = 5, listar = false, limite = 10) => {
   let salida = "";
 
   for (let i = 1; i < limite + 1; i++) {
-    salida += `${base} x ${i} = ${base * i}\n `;
+    salida += `${base} x ${i} = ${base * i}\n`;
   }
 
   if (listar) {
